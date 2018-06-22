@@ -1,0 +1,15 @@
+Steps to Setup
+
+#1 Clone project
+
+#2 Download Twilio Video framework from https://github.com/twilio/twilio-video-ios/releases/download/2.2.1/TwilioVideo.framework.zip
+
+#3 Unzip and copy Build/iOS/TwilioVideo.framework to project root
+
+#4 Open video.xcworkspace 
+
+#5 Build the project. Your will be having libvideo.a, View.Bundle(contains views) and required header files.
+
+Code to start view is available in startVideo method in video/video.me.
+
+You cannot directly access that method because respective file depends on Flash library and can only be called from flash apps. Please use the code to start view from single page application. 
