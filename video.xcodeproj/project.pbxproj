@@ -14,7 +14,6 @@
 		505B0C6120DBD21400FC184C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505B0C6020DBD21000FC184C /* AVFoundation.framework */; };
 		505B0C6320DBD21F00FC184C /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505B0C6220DBD21B00FC184C /* VideoToolbox.framework */; };
 		505B0C6520DBD22B00FC184C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505B0C6420DBD22700FC184C /* AudioToolbox.framework */; };
-		506CD38D20DCC8BD001AB137 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 506CD38C20DCC8BD001AB137 /* libc++.dylib */; };
 		50D4930920D926F90029CB9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D4930820D926F90029CB9B /* ViewController.m */; };
 		50D4930A20D9286D0029CB9B /* VideoStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D4930620D925910029CB9B /* VideoStoryBoard.storyboard */; };
 		50D4930B20D9288A0029CB9B /* ViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 50D4930720D926F90029CB9B /* ViewController.h */; };
@@ -66,7 +65,7 @@
 		505B0C6020DBD21000FC184C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		505B0C6220DBD21B00FC184C /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		505B0C6420DBD22700FC184C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		506CD38C20DCC8BD001AB137 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "../FLex SDK v4.16-29/lib/aot/stub/libc++.dylib"; sourceTree = "<group>"; };
+		505E794120F5E8D80012C17C /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
 		50D4930620D925910029CB9B /* VideoStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VideoStoryBoard.storyboard; sourceTree = "<group>"; };
 		50D4930720D926F90029CB9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		50D4930820D926F90029CB9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -93,7 +92,6 @@
 				505B0C5D20DBD1FB00FC184C /* GLKit.framework in Frameworks */,
 				505B0C5B20DBD1EC00FC184C /* CoreMedia.framework in Frameworks */,
 				505B0C5920DBD1DC00FC184C /* SystemConfiguration.framework in Frameworks */,
-				506CD38D20DCC8BD001AB137 /* libc++.dylib in Frameworks */,
 				50EC40BE20C15457001B635B /* TwilioVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,7 +151,7 @@
 		50EC40BA20C153CA001B635B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				506CD38C20DCC8BD001AB137 /* libc++.dylib */,
+				505E794120F5E8D80012C17C /* libc++.1.dylib */,
 				505B0C6420DBD22700FC184C /* AudioToolbox.framework */,
 				505B0C6220DBD21B00FC184C /* VideoToolbox.framework */,
 				505B0C6020DBD21000FC184C /* AVFoundation.framework */,
